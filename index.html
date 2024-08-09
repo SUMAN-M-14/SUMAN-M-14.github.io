@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman M | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('profile.jpg.JPG'); /* Background image applied here */
+            background-size: cover;
+            background-position: center;
+            color: black; /* Default text color set to black */
+        }
+
+        /* Header */
+        header {
+            padding: 10px 0;
+            text-align: center; /* Center the header content */
+        }
+
+        /* Navigation */
+        nav {
+            display: inline-block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: rgb(231, 32, 32); /* Navigation links color set to red */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #ff5722; /* Button color */
+            color: white; /* Button text color */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            /* Background image inherited from body */
+        }
+
+        .hero .logo {
+            display: inline-block;
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+            border-radius: 100%; /* Makes the logo circular */
+            vertical-align: middle; /* Aligns logo with text */
+            margin-right: 10px; /* Space between logo and text */
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero .highlight {
+            color: red; /* Highlighted text color set to red */
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff5722; /* Button color */
+            color: white; /* Button text color */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px;
+            text-align: center;
+            /* Background color removed from sections */
+        }
+
+        /* Uppercase and bold styles for the About Me section */
+        #about h2,
+        #about p {
+            text-transform: uppercase; /* Convert text to uppercase */
+             /* Make text bold */
+        }
+
+        /* Headings and Lists */
+        section h2 {
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 30px;
+            /* Background color removed from projects */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            /* Background color removed from footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="btn">Home</a>
+            <a href="#about" class="btn">About Me</a>
+            <a href="#skills" class="btn">Skills</a>
+            <a href="#projects" class="btn">Projects</a>
+            <a href="#certificates" class="btn">Certificates</a>
+            <a href="#contact" class="btn">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="logo.png.png" alt="Logo" class="logo"> <!-- Updated path for the logo -->
+            
+            <p>Software Engineering Student | Machine Learning | Cybersecurity</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Software Engineering student with expertise in Machine Learning, Cybersecurity, and Web Development. Passionate about technology and innovation, I am always looking for opportunities to grow and apply my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>MySQL</li>
+            <li>Prompt Engineering</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Student Marks Analysis Using Machine Learning</h3>
+            <p>Developed a machine learning system to analyze student marks and dropout rates.</p>
+        </div>
+        <div class="project">
+            <h3>Network Sniffing in Cybersecurity</h3>
+            <p>Led a project to detect and analyze network anomalies, improving threat detection.</p>
+        </div>
+        <div class="project">
+            <h3>Task Management System</h3>
+            <p>Created a task management system in a DBMS to organize and track tasks effectively.</p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li>Software Engineering 101 (Udemy)</li>
+            <li>Manage Security Risks (Google via Coursera)</li>
+            <li>Foundations of Cybersecurity (Google via Coursera)</li>
+            <li>Machine Learning with Python (Cognitive Class)</li>
+            <li>Linux and SQL (Google via Coursera)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sumanmukundha@gmail.com">sumanmukundha@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/suman-m-8a1020297">Suman M</a></p>
+        <p>GitHub: <a href="https://github.com/">My GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Suman M. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
