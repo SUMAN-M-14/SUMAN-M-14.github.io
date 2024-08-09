@@ -61,8 +61,8 @@ nav .btn {
 
 .hero .logo {
     display: inline-block;
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
     border-radius: 200%; /* Makes the logo circular */
     vertical-align: middle; /* Aligns logo with text */
     margin-right: 10px; /* Space between logo and text */
