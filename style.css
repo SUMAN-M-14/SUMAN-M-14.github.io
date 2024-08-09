@@ -1,0 +1,127 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('profile.jpg.JPG'); /* Background image applied here */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Default text color set to black */
+}
+
+/* Header */
+header {
+    padding: 10px 0;
+    text-align: center; /* Center the header content */
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(231, 32, 32); /* Navigation links color set to red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff5722; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    /* Background image inherited from body */
+}
+
+.hero .logo {
+    display: inline-block;
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 200%; /* Makes the logo circular */
+    vertical-align: middle; /* Aligns logo with text */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero .highlight {
+    color: red; /* Highlighted text color set to red */
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5722; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+    /* Background color removed from sections */
+}
+
+/* Headings and Lists */
+section h2 {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 30px;
+    /* Background color removed from projects */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    /* Background color removed from footer */
+}
